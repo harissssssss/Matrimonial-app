@@ -1,0 +1,70 @@
+2024-09-08 14:07:53 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests]: MatrimonialAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-08 14:07:53 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.matrimonial.matrimonialapp.MatrimonialAppApplication for test class com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests
+2024-09-08 14:07:53 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests - Starting MatrimonialAppApplicationTests using Java 21.0.4 with PID 27508 (started by Syed Mohd Haria in C:\Users\Syed Mohd Haria\Desktop\Code\Matrimonial-app)
+2024-09-08 14:07:54 [main] DEBUG com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-08 14:07:54 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-08 14:07:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-08 14:07:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-09-08 14:07:55 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-08 14:07:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-08 14:07:55 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-08 14:07:55 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-08 14:07:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-08 14:07:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71beada8
+2024-09-08 14:07:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-08 14:07:56 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-08 14:07:57 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-08 14:07:57 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-08 14:07:57 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-08 14:07:58 [main] WARN  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6d8ce258-3e22-473d-ac0a-ed2ea8bf4cb2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-08 14:07:58 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-08 14:07:58 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplicationTests - Started MatrimonialAppApplicationTests in 4.505 seconds (process running for 6.19)
+2024-09-08 14:07:58 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-08 14:07:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-08 14:07:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-08 14:08:10 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplication - Starting MatrimonialAppApplication using Java 21.0.4 with PID 41304 (C:\Users\Syed Mohd Haria\Desktop\Code\Matrimonial-app\target\classes started by Syed Mohd Haria in C:\Users\Syed Mohd Haria\Desktop\Code\Matrimonial-app)
+2024-09-08 14:08:10 [main] DEBUG com.matrimonial.matrimonialapp.MatrimonialAppApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-08 14:08:10 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-08 14:08:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-08 14:08:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-09-08 14:08:11 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-08 14:08:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-08 14:08:11 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-08 14:08:11 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:08:11 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-08 14:08:11 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+2024-09-08 14:08:11 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-08 14:08:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-08 14:08:11 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-08 14:08:11 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-08 14:08:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-08 14:08:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@591e5fd4
+2024-09-08 14:08:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-08 14:08:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-08 14:08:13 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-08 14:08:13 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-08 14:08:13 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-08 14:08:13 [main] WARN  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 30fc395e-bbf7-4bf9-84cb-109f1dca9966
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-08 14:08:13 [main] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-08 14:08:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-08 14:08:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-08 14:08:13 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplication - Started MatrimonialAppApplication in 3.796 seconds (process running for 4.857)
+2024-09-08 14:08:13 [main] INFO  com.matrimonial.matrimonialapp.MatrimonialAppApplication - Matrimonial Application started successfully!
+2024-09-08 14:38:16 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m33s501ms361µs).
+2024-09-08 17:48:57 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h10m41s40ms887µs700ns).
+2024-09-08 18:44:10 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s847ms219µs600ns).
+2024-09-08 19:14:07 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m56s670ms212µs400ns).
+2024-09-09 14:50:06 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h44m56s935ms490µs).
+2024-09-09 16:29:26 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m18s618ms218µs100ns).
+2024-09-09 18:41:32 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m5s514ms449µs500ns).
+2024-09-09 19:00:03 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m146ms399µs400ns).
