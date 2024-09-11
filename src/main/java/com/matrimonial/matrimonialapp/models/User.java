@@ -35,6 +35,7 @@ public class User {
     @ToString.Exclude // Prevent circular reference
     private Profile profile;
 
+
     private LocalDateTime createdAt;
 
     // Automatically set createdAt before persisting
