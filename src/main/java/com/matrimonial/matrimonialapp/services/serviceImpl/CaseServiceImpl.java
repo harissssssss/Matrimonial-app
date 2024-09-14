@@ -28,4 +28,14 @@ public class CaseServiceImpl implements CaseService {
     public void deleteCase(Long id) {
         caseRepository.deleteById(id);
     }
+
+    @Override
+    public void updateCase(Case caseData) {
+        caseRepository.save(caseData);
+    }
+
+    @Override
+    public Optional<Case> findByInterestId(Long interestId) {
+        return caseRepository.findByInterest_InterestId(interestId);
+    }
 }

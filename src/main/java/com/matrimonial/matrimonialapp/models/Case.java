@@ -1,7 +1,8 @@
 package com.matrimonial.matrimonialapp.models;
 
-import lombok.*;
 import jakarta.persistence.*;
+import lombok.*;
+
 import java.time.LocalDateTime;
 
 @Entity
@@ -17,7 +18,7 @@ public class Case {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long caseId;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "interest_id", nullable = false)
     @ToString.Exclude // Prevent circular reference
     private Interest interest;

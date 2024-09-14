@@ -43,4 +43,5 @@ public class Interest {
     public void preUpdate() {
         this.updatedAt = LocalDateTime.now();
     }
+
 }

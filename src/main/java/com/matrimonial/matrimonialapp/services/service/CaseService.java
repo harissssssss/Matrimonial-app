@@ -10,4 +10,8 @@ public interface CaseService {
     Optional<Case> getCaseById(Long id);
 
     void deleteCase(Long id);
+
+    void updateCase(Case caseData);
+
+    Optional<Case> findByInterestId(Long interestId);
 }
