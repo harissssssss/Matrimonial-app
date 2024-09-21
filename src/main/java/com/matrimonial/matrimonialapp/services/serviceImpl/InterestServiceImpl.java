@@ -3,6 +3,7 @@ package com.matrimonial.matrimonialapp.services.serviceImpl;
 import com.matrimonial.matrimonialapp.Exceptions.InterestNotFoundException;
 import com.matrimonial.matrimonialapp.Exceptions.ProfileNotFoundException;
 import com.matrimonial.matrimonialapp.Exceptions.UserNotFoundException;
+import com.matrimonial.matrimonialapp.dto.InterestResponseDto;
 import com.matrimonial.matrimonialapp.models.*;
 import com.matrimonial.matrimonialapp.repositories.InterestRepository;
 import com.matrimonial.matrimonialapp.services.service.CaseService;
@@ -115,5 +116,29 @@ public class InterestServiceImpl implements InterestService {
             caseService.deleteCase(caseOpt.get().getCaseId());
         }
         interestRepository.delete(interest);
+    }
+
+
+    public Interest from(InterestResponseDto interestResponseDto) {
+        Interest interest = new Interest();
+        interest.setInterestId(interestResponseDto.getInterestId());
+        Profile profile = new Profile();
+        profile.setProfileId(interestResponseDto.getInterestId());
+        interest.setProfile(interestResponseDto.getProfile());
+        interest.setStatus(interestResponseDto.getStatus());
+        interest.setCreatedAt(interestResponseDto.getCreatedAt());
+        interest.setUpdatedAt(LocalDateTime.now());
+        interest.setErrors(interestResponseDto.getErrors());
+        return interest;
+    }
+
+    public InterestResponseDto from(Interest interest) {
+        InterestResponseDto interestResponseDto = new InterestResponseDto();
+        interestResponseDto.setInterestId(interest.getInterestId());
+        interestResponseDto.setProfile(interest.getProfile());
+        interestResponseDto.setStatus(interest.getStatus());
+        interestResponseDto.setCreatedAt(interest.getCreatedAt());
+        interestResponseDto.setErrors(interest.getErrors());
+        return interestResponseDto;
     }
 }

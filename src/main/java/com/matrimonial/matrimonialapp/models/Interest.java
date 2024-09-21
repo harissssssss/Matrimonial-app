@@ -1,8 +1,10 @@
 package com.matrimonial.matrimonialapp.models;
 
+import com.matrimonial.matrimonialapp.Exceptions.Errors.Errors;
 import lombok.*;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Table(name = "interests")
@@ -32,6 +34,9 @@ public class Interest {
 
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
+    @Transient
+    private List<Errors> errors;
 
     // Automatically set timestamps
     @PrePersist
